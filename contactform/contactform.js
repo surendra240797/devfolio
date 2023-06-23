@@ -3,6 +3,7 @@ jQuery(document).ready(function($) {
 
   //Contact-checking.
   $('form.contactForm').submit(function() {
+    console.log("Sample logger");
     var f = $(this).find('.form-group'),
       ferror = false,
       emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
